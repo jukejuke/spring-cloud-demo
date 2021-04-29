@@ -26,3 +26,13 @@
    http://127.0.0.1:8075/commonRequest (restTemplate 访问方式)
    
    http://127.0.0.1:8075/feignRequest (Feign 访问方式)
+
+4. eureka-server
+
+   服务网关
+   
+   DEMO访问地址：
+
+   http://127.0.0.1:8080/eureka-consumer/commonRequest
+   
+   http://127.0.0.1:8080/eureka-consumer/feignRequest
