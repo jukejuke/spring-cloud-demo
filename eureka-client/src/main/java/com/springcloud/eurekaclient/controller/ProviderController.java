@@ -34,7 +34,7 @@ public class ProviderController {
     public String nice(){
         List<String> services = discoveryClient.getServices();
         for(String s : services){
-            log.info("gogogo" + s);
+            log.info("prefix:" + s);
         }
         return "nice to meet you!";
     }
