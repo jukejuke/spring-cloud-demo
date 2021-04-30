@@ -31,6 +31,8 @@
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
 
+        <!-- 2.0 版本已禁用 bootstrap -->
+        <!-- 2.4.0 以上版本 添加此配置 启动-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-bootstrap</artifactId>
