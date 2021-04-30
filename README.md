@@ -27,7 +27,8 @@
    
    http://127.0.0.1:8075/feignRequest (Feign 访问方式)
 
-4. eureka-
+
+4. eureka-gataway
 
    服务网关
    
@@ -40,3 +41,17 @@
    http://127.0.0.1:8080/single-provider/hello
 
    http://127.0.0.1:8080/single-provider/nice
+
+
+5. springcloud-config-server
+
+   配置中心服务端
+
+
+6. springcloud-config-client
+
+   配置中心客户端
+
+   DEMO访问地址：
+
+   http://127.0.0.1:9006/hello?name=test
