@@ -16,6 +16,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class ClientController {
 
+    /**
+     * @RefreshScope 不能和@Configration在同一个类的注解上
+     * @RefreshScope 注解能够保证，我们刷新不会影响到正在进行的业务
+     */
+
     @Value("${word}")
     private String word;
 
