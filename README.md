@@ -55,3 +55,7 @@
    DEMO访问地址：
 
    http://127.0.0.1:9006/hello?name=test
+
+   手动刷新配置（POST方式）
+
+   curl -X POST http://127.0.0.1:9006/actuator/refresh
